@@ -1,0 +1,40 @@
+2021-02-07T06:12:35.794Z INFO Ensure step 5 jar file s3://bda-avg-20200207/averaging-mapreduce.jar
+2021-02-07T06:12:36.738Z INFO StepRunner: Created Runner for step 5
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-29LOPVQCOCJKW/averaging-mapreduce.jar s3://bda-avg-20200207/dataset.txt s3://bda-avg-20200207/temp s3://bda-avg-20200207/output'
+INFO Environment:
+  PATH=/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+  SECURITY_PROPERTIES=/emr/instance-controller/lib/security.properties
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  LANG=en_US.UTF-8
+  MAIL=/var/spool/mail/hadoop
+  LOGNAME=hadoop
+  PWD=/
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-29LOPVQCOCJKW/tmp
+  _=/etc/alternatives/jre/bin/java
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  SHELL=/bin/bash
+  QTINC=/usr/lib64/qt-3.3/include
+  USER=hadoop
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-42-178
+  QTDIR=/usr/lib64/qt-3.3
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-29LOPVQCOCJKW
+  EMR_STEP_ID=s-29LOPVQCOCJKW
+  QTLIB=/usr/lib64/qt-3.3/lib
+  HOME=/home/hadoop
+  SHLVL=1
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-29LOPVQCOCJKW/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-29LOPVQCOCJKW/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-29LOPVQCOCJKW
+INFO ProcessRunner started child process 435
+2021-02-07T06:12:36.739Z INFO HadoopJarStepRunner.Runner: startRun() called for s-29LOPVQCOCJKW Child Pid: 435
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-29LOPVQC...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-29LOPVQC...
+INFO total process run time: 80 seconds
+2021-02-07T06:13:56.811Z INFO Step created jobs: job_1612675665477_0007,job_1612675665477_0008
+2021-02-07T06:13:56.811Z INFO Step succeeded with exitCode 0 and took 80 seconds
